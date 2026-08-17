@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Arial, sans-serif;
+
+  background: white;
+}
+
+.signup-box {
+  width: 430px;
+  padding: 30px;
+
+  background: white;
+
+  border-radius: 14px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.input-group {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 7px;
+
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+
+  border: 1px solid orange;
+  border-radius: 7px;
+
+  font-size: 15px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #333;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+
+  margin-top: 5px;
+
+  border: none;
+  border-radius: 7px;
+
+  background: #222;
+  color: white;
+
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: orange;
+}
+
+#message {
+  min-height: 22px;
+  margin-top: 18px;
+
+  text-align: center;
+  font-weight: bold;
+}
+
+.total-box {
+  margin-top: 20px;
+  padding: 12px;
+
+  background: #f1f1f1;
+
+  border-radius: 7px;
+
+  text-align: center;
+}
+
+/* Registered Students Table */
+
+.table-section {
+  margin-top: 35px;
+}
+
+.table-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  width: 100%;
+  
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: gray;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+tbody tr:hover {
+  background-color: #eeeeee;
+}
