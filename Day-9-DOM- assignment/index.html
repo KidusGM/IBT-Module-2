@@ -1,0 +1,161 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Addis Market List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+
+    <h1>Addis Resturant </h1>
+
+    <div class="market-container">
+
+      <p class="description">
+        This is a list of items available in the Addis Market. You can find a
+        variety of Tradtional Food, spices Foods, and other goods.
+      </p>
+
+      <div class="main">
+
+        <form action="" id="item-form">
+
+          <input
+            type="text"
+            placeholder="Enter your product Name"
+            id="p-name"
+            required
+          />
+
+          <input
+            type="file"
+            placeholder="Enter Product Image"
+            id="p-image"
+            required
+          />
+
+          <input
+            type="number"
+            placeholder="Enter Product Price"
+            id="p-price"
+            required
+          />
+
+          <input
+            type="number"
+            id="p-quantity"
+            placeholder="Quantity"
+            min="1"
+            required
+          />
+
+          <button type="submit">Add Item</button>
+
+        </form>
+
+      </div>
+
+      <div class="market-list">
+
+ <!---      <div class="rend">
+          <img
+            src="Gallery/tibis.jpg"
+            alt="Addis Market"
+            style="width: 200px; height: auto"
+          />
+          <span>Fresh Tibis</span>
+          <span>Price: $2000.00</span>
+          <button>Order</button>
+        </div>
+
+        <div class="rend">
+          <img
+            src="Gallery/tibis.jpg"
+            alt="Addis Market"
+            style="width: 200px; height: auto"
+          />
+          <span>Fresh Tibis</span>
+          <span>Price: $2000.00</span>
+          <button>Order</button>
+        </div>
+
+        <div class="rend">
+          <img
+            src="Gallery/tibis.jpg"
+            alt="Addis Market"
+            style="width: 200px; height: auto"
+          />
+          <span>Fresh Tibis</span>
+          <span>Price: $2000.00</span>
+          <button>Order</button>
+        </div>
+
+        <div class="rend">
+          <img
+            src="Gallery/tibis.jpg"
+            alt="Addis Market"
+            style="width: 200px; height: auto"
+          />
+          <span>Fresh Tibis</span>
+          <span>Price: $2000.00</span>
+          <button>Order</button>
+        </div>
+
+        <div class="rend">
+          <img
+            src="Gallery/tibis.jpg"
+            alt="Addis Market"
+            style="width: 200px; height: auto"
+          />
+          <span>Fresh Tibis</span>
+          <span>Price: $2000.00</span>
+          <button>Order</button>
+        </div>
+
+        <div class="rend">
+          <img
+            src="Gallery/tibis.jpg"
+            alt="Addis Market"
+            style="width: 200px; height: auto"
+          />
+          <span>Fresh Tibis</span>
+          <span>Price: $2000.00</span>
+          <button>Order</button>
+        </div>
+
+      </div>
+    --> 
+    </div>
+
+    <p id="item-count">0 items remaining</p>
+
+    <table>
+
+      <thead>
+
+        <tr>
+          <th>Image</th>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+
+      </thead>
+
+      <tbody id="cart-list"></tbody>
+
+    </table>
+
+  
+    <script src="app.js"></script>
+
+  </body>
+
+</html>
