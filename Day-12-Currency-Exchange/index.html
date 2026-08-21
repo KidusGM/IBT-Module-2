@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>Currency Exchange</title>
+
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+
+<body>
+
+  <h1>Foreign Currency Exchange</h1>
+
+
+  <p id="status">
+    Loading.....
+  </p>
+
+
+  <div class="main">
+
+
+    <!-- =========================
+         EXCHANGE FORM
+    ========================== -->
+
+    <form action="" id="et_currency">
+
+      <h1 id="disc">
+        Convert from ETB to Foreign Currency
+      </h1>
+
+
+      <label for="et_birr">
+        Ethiopian Currency
+      </label>
+
+
+      <input
+        type="number"
+        placeholder="Enter your amount"
+        id="et_birr"
+        required
+      />
+
+
+      <select id="fr_currency">
+      </select>
+
+
+      <button
+        id="btn"
+        type="submit"
+      >
+        Exchange
+      </button>
+
+    </form>
+
+
+    <!-- =========================
+         EXCHANGE RESULT
+    ========================== -->
+
+    <p id="result"></p>
+
+
+    <!-- =========================
+         EXCHANGE HISTORY TABLE
+    ========================== -->
+
+    <table class="tb">
+
+      <thead>
+
+        <tr class="sp">
+
+          <th>#</th>
+
+          <th>ETB</th>
+
+          <th>Foreign Currency</th>
+
+          <th>Rate</th>
+
+        </tr>
+
+      </thead>
+
+
+      <tbody id="currency-list">
+      </tbody>
+
+    </table>
+
+
+  </div>
+
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
